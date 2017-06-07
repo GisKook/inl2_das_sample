@@ -1,0 +1,23 @@
+{
+    "DB":{
+    	"Host":"127.0.0.1",
+    	"Port":"5432",
+    	"User":"cetcnav",
+    	"Passwd":"dkdh13579",
+    	"DbName":"lbs_manage"
+    },
+    "Mqtt":{
+    	"Addr":"tcp://192.168.2.66:8884",
+    	"ClientID":"giskook",
+    	"TopicPub":"das2mobile",
+    	"TopicSub":"mobile2das"
+    },
+    "Server": {
+        "BindPort": "8766",
+        "ReadLimit": 30000,
+        "WriteLimit": 30000,
+        "ConnTimeout": 300,
+        "ConnCheckInterval": 30,
+        "ServerStatistics": 300
+    }
+}
